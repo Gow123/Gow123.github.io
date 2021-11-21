@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: Kalam;
+	src: url(../fonts/Kalam-Regular.ttf);
+}
+
+body{
+	background: #efefef;
+	font-family: Kalam;
+}
+
+main{
+	width: 70%;
+	padding: 20px 40px;
+	margin: auto;
+	background: 40px;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #fff;
+}
+
+.photo{
+	width: calc(50% - 20px);
+	height: calc((35vw - 20px) /16 * 9);
+	margin: 10px;
+	background: #efefef;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,0.3)
+
+}
+
+.photo:hover{
+	transform: scale(1.07) rotate(2deg);
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.4)
+}
+
+h1
+ {
+ 	text-align: center;
+ 	width: 100%;
+ 	font-size: 30px; 
+ 	padding: 10px;
+ }
+
+ .photo1{
+	background-image: url(../image/img1.jpg);
+}
+.photo1:hover{
+	transform: translateX(15px);
+}
+ .photo2{
+	background-image: url(../image/img2.jpg);
+}
+.photo2:hover{
+	transform: translateX(-15px);
+}
+ .photo3{
+	background-image: url(../image/img3.jpg);
+}
+.photo3:hover{
+	transform: translateX(15px);
+}
+ .photo4{
+	background-image: url(../image/img4.jpg);
+}
+.photo4:hover{
+	transform: translateX(-15px);
+}
+ .photo5{
+	background-image: url(../image/img5.jpg);
+}
+.photo5:hover{
+	transform: translateX(15px);
+}
+ .photo6{
+	background-image: url(../image/img6.jpg);
+}
+.photo6:hover{
+	transform: translateX(-15px);
+}
+ .photo7{
+	background-image: url(../image/img7.jpg);
+}
+.photo7:hover{
+	transform: translateX(15px);
+}
+ .photo8{
+	background-image: url(../image/img8.jpg);
+}
+.photo8:hover{
+	transform: translateX(-15px);
+}
+ .photo9{
+	background-image: url(../image/img9.jpg);
+}
+.photo9:hover{
+	transform: translateX(15px);
+}
+ .photo10{
+	background-image: url(../image/img10.jpg);
+}
+.photo10:hover{
+	transform: translateX(-15px);
+}
+ .photo11{
+	background-image: url(../image/img11.png);
+}
+.photo11:hover{
+	transform: translateX(15px);
+}
+ .photo12{
+	background-image: url(../image/img12.jpg);
+}
+.photo12:hover{
+	transform: translateX(-15px);
+}
